@@ -13,6 +13,7 @@ Source0:	%{name}-%{git}.tar.xz
 BuildArch:      noarch
 
 BuildRequires:	python-distutils-extra
+BuildRequires:	intltool
 
 Requires:	python-efl
 Requires:	python-libtorrent-rasterbar
