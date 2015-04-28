@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   epour-20140117.tar.xz: 796f2c908e2a35e4867bcf6ce5f064bf06758fe6
+sources:
+  epour-0.6.0.tar.xz: 7cfa8bbaf01bd6106ead24391a5deea23996e29a

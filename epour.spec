@@ -1,14 +1,15 @@
-%define git	20140117
+##%define git	20140117
 
 Epoch:	1
 Summary: 	Enlightened torrent client
 Name: 		epour
-Version:	0.5.2.0
-Release:	1.%{git}.1
+Version:	0.6.0
+Release:	1
 License:	BSD
 Group:		Video
-URL:		http://www.enlightenment.org/
-Source0:	%{name}-%{git}.tar.xz
+URL:		https://www.enlightenment.org/
+Source0:	https://download.enlightenment.org/rel/apps/%{name}-%{version}.tar.xz
+#Source0:	%{name}-%{git}.tar.xz
 
 BuildArch:      noarch
 
