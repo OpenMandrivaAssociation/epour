@@ -25,7 +25,7 @@ This is a WORK IN PROGRESS - it is NOT COMPLETE. do not expect everything to
 work and do what you want.
 
 %prep
-%setup -qn %{name}-%{git}
+%setup -qn %{name}-%{version}
 
 %install
 python setup.py install --prefix=%{buildroot}/%_prefix
