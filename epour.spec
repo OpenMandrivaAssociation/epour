@@ -1,22 +1,19 @@
-##%define git	20140117
-
 Epoch:	1
 Summary: 	Enlightened torrent client
 Name: 		epour
 Version:	0.7.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Video
 URL:		https://www.enlightenment.org/
 Source0:	https://download.enlightenment.org/rel/apps/%{name}-%{version}.tar.xz
-#Source0:	%{name}-%{git}.tar.xz
 
 BuildArch:      noarch
 
 BuildRequires:	python-distutils-extra
 BuildRequires:	intltool
 
-Requires:	python-efl >= 1.19.0
+Requires:	python-efl >= 1.23.0
 Requires:	python-libtorrent-rasterbar
 Requires:	python-dbus
 
