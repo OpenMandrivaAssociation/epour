@@ -4,7 +4,7 @@ Name: 		epour
 Version:	0.7.0
 Release:	2
 License:	BSD
-Group:		Video
+Group:		Networking/File transfer
 URL:		https://www.enlightenment.org/
 Source0:	https://download.enlightenment.org/rel/apps/%{name}-%{version}.tar.xz
 
