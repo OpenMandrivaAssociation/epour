@@ -2,7 +2,7 @@ Epoch:	1
 Summary: 	Enlightened torrent client
 Name: 		epour
 Version:	0.7.0
-Release:	3
+Release:	4
 License:	BSD
 Group:		Networking/File transfer
 URL:		https://www.enlightenment.org/
