@@ -11,6 +11,7 @@ Source0:	https://download.enlightenment.org/rel/apps/%{name}-%{version}.tar.xz
 BuildArch:      noarch
 
 BuildRequires:	python-distutils-extra
+BuildRequires:  python%{pyver}dist(setuptools)
 BuildRequires:	intltool
 
 Requires:	python-efl >= 1.23.0
